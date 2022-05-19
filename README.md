@@ -14,8 +14,12 @@
 
 <div style="display:flex; justify-content: center;">
 <p align="center">
+    <a href="https://ko.reactjs.org/">
+    <img src="https://img.shields.io/badge/-C%23-hotpink?logo=Csharp&style=plastic">
+    <a href="https://ko.reactjs.org/">
+    <img src="https://img.shields.io/badge/Unity-2020.3.33f1-57b9d3.svg?style=plastic&logo=unity">
   <a href="https://ko.reactjs.org/">
-    <img src="https://img.shields.io/badge/React-17.0.2-blue?style=plastic&logo=react">
+    <img src="https://img.shields.io/badge/React-17.0.2-green?style=plastic&logo=react">
   <a href="https://docs.aws.amazon.com/s3/index.html?nc2=h_ql_doc_ec2">
     <img src="https://img.shields.io/badge/AWS-S3-orange?style=plastic&logo=amazon">
   <a href="https://docs.aws.amazon.com/ec2/index.html?nc2=h_ql_doc_ec2">
@@ -28,10 +32,10 @@
     <img src="https://img.shields.io/badge/Jenkins-2.263.4-%236DB33F?color=red&style=plastic&logo=Jenkins">
   </a>
   <a href="https://www.atlassian.com/ko/software/jira/">
-    <img src="https://img.shields.io/badge/JIRA-Atlassian-blue?style=plastic&logo=jira">
+    <img src="https://img.shields.io/badge/JIRA-Atlassian-purple?style=plastic&logo=jira">
   </a>
   <a href="https://www.notion.so/9afd18e7efe54feba56f48c35a99270b">
-    <img src="https://img.shields.io/badge/Notion-2020.12-lightgrey?style=plastic&logo=notion">
+    <img src="https://img.shields.io/badge/Notion-2020.12-royalblue?style=plastic&logo=notion">
   </a>
 </p>
 </div>
