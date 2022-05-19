@@ -1,4 +1,4 @@
-# The Little Traveler 🤴🏻
+# 🤴🏻 The Little Traveler
 
  **어린왕자**를 의미하는 The Little Prince에서 'The Little' 그리고 **여행자**를 의미하는 'Traveler'의 합성어
 
@@ -65,7 +65,7 @@
 ## 🚩 Table of Contents
 
 
-- [`The Little Traveler` 🤴🏻](#the-little-traveler-)
+- [The Little Traveler 🤴🏻](#the-little-traveler-)
   - [🚩 Table of Contents](#-table-of-contents)
     - [🤴🏻The Little Traveler?](#the-little-traveler)
   - [<font color="hotpink"> ⭐️프로젝트 주요 내용</font>](#font-colorhotpink-️프로젝트-주요-내용font)
