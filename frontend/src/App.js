@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from "react";
 import Unity, { UnityContext } from "react-unity-webgl";
+import Loading from './Loading.gif';
 
 const unityContext = new UnityContext({
   loaderUrl: "Build/WebGL.loader.js",
@@ -17,7 +18,7 @@ export default function App() {
     let timer = setTimeout(() => {
       setLoadingStyle({ display: 'none' })
       setUnityStyle({ display: 'block' })
-    }, 35000);
+    }, 50000);
     return () => { clearTimeout(timer) }
   }, []);
 
@@ -31,13 +32,11 @@ export default function App() {
 
 function UnityComponent() {
   return (
-    <div>
+    <div id="asdf">
       <Unity
         style={{
-          width: '1600px',
-          height: '800px',
-          justifySelf: 'center',
-          alignSelf: 'center'
+          width: '90vw',
+          height: '85vh',
         }}
         unityContext={unityContext} />
     </div>
@@ -46,8 +45,8 @@ function UnityComponent() {
 
 function LoadingComponent() {
   return (
-    <div>
-      <img src="https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/1Bie/image/8qbDlFf1RDkPimUoyooxeNSqIic.jpg"></img>
+    <div id="asdf">
+      <img src={Loading}></img>
     </div>
   );
 };
