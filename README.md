@@ -1,11 +1,12 @@
-# `The Little Traveler` 🤴🏻
+# The Little Traveler 🤴🏻
 
  **어린왕자**를 의미하는 The Little Prince에서 'The Little' 그리고 **여행자**를 의미하는 'Traveler'의 합성어
 
 <br>
 
-<div style="display:flex; justify-content: center;">
-<img width="500px" alt="title" src="2022-05-19-21-51-39.png">
+<div align="center">
+  <br>
+  <img src="2022-05-19-21-51-39.png" alt="TLT" width="500">
 </div>
 
 <br>
@@ -40,13 +41,22 @@
 </p>
 </div>
 
-<h3 align="center"> 일상생활에 지친 어른들을 위한, 어린왕자 스토리를 기반으로 한 '어른들을 위한 힐링게임' 서비스입니다. </h3>
-<br>
+<div style="display:flex; justify-content: center;">
+  <p align="center">
+
+  <h3 align="center"> 일상생활에 지친 어른들을 위한, 어린왕자 스토리를 기반으로 한 '어른들을 위한 힐링게임' 서비스입니다. </h3>
+
+  <br>
+
 <p align="center"> 
   <a href="http://k6d103.p.ssafy.io/">게임 시작</a> •
   <a href="https://www.notion.so/b4d4addb949241278f764ac6f44bf2c0">게임 상세 정보</a> 
 </p>
+
 <br>
+  </p>
+</div>
+
 
 ![](2022-05-20-00-23-32.png)
 
