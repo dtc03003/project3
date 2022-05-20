@@ -18,7 +18,7 @@ export default function App() {
     let timer = setTimeout(() => {
       setLoadingStyle({ display: 'none' })
       setUnityStyle({ display: 'block' })
-    }, 50000);
+    }, 50001);
     return () => { clearTimeout(timer) }
   }, []);
 
