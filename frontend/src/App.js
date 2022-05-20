@@ -35,8 +35,8 @@ function UnityComponent() {
     <div id="asdf">
       <Unity
         style={{
-          width: '90vw',
-          height: '85vh',
+          width: '85vw',
+          height: '97vh',
         }}
         unityContext={unityContext} />
     </div>
