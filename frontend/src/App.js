@@ -37,6 +37,8 @@ function UnityComponent() {
         style={{
           width: '80vw',
           height: '45vw',
+          maxWidth: '142.2vh',
+          maxHeight: '80vh'
         }}
         unityContext={unityContext} />
     </div>
