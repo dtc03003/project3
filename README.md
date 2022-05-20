@@ -6,8 +6,9 @@
 
 <div align="center">
   <br>
-  <img src="2022-05-19-21-51-39.png" alt="TLT" width="500">
+  <img src="banner.png" alt="TLT" width="600">
 </div>
+
 
 <br>
 <hr>
@@ -35,6 +36,9 @@
   <a href="https://www.atlassian.com/ko/software/jira/">
     <img src="https://img.shields.io/badge/JIRA-Atlassian-purple?style=plastic&logo=jira">
   </a>
+  <a href="https://www.atlassian.com/ko/software/jira/">
+    <img src="https://img.shields.io/badge/N Nginx--yellow?style=plastic">
+  </a>
   <a href="https://www.notion.so/9afd18e7efe54feba56f48c35a99270b">
     <img src="https://img.shields.io/badge/Notion-2020.12-royalblue?style=plastic&logo=notion">
   </a>
@@ -50,26 +54,26 @@
 
 <p align="center"> 
   <a href="http://k6d103.p.ssafy.io/">게임 시작</a> •
-  <a href="https://www.notion.so/b4d4addb949241278f764ac6f44bf2c0">게임 상세 정보</a> 
+  <a href="https://www.notion.so/ba979739a48d4897b775e9105f50ee90">게임 상세 정보</a> 
 </p>
 
 <br>
   </p>
 </div>
 
+![](2022-05-20-09-55-16.png)
 
-![](2022-05-20-00-23-32.png)
 
 <br>
 
 ## 🚩 Table of Contents
 
 
-- [The Little Traveler 🤴🏻](#the-little-traveler-)
+- [🤴🏻 The Little Traveler](#-the-little-traveler)
   - [🚩 Table of Contents](#-table-of-contents)
     - [🤴🏻The Little Traveler?](#the-little-traveler)
   - [<font color="hotpink"> ⭐️프로젝트 주요 내용</font>](#font-colorhotpink-️프로젝트-주요-내용font)
-    - [<a href="https://www.notion.so/b4d4addb949241278f764ac6f44bf2c0">🎨 프로젝트 상세 디자인</a>](#-프로젝트-상세-디자인)
+    - [<a href="https://www.notion.so/ba979739a48d4897b775e9105f50ee90">🎨 프로젝트 상세 디자인</a>](#-프로젝트-상세-디자인)
   - [🌏 Browser Support](#-browser-support)
   - [📦 Packages (M)](#-packages-m)
   - [📚 준비하기](#-준비하기)
@@ -132,7 +136,7 @@
   
 <br>
 
-### <a href="https://www.notion.so/b4d4addb949241278f764ac6f44bf2c0">🎨 프로젝트 상세 디자인</a> 
+### <a href="https://www.notion.so/ba979739a48d4897b775e9105f50ee90">🎨 프로젝트 상세 디자인</a> 
 
 <br>
 
@@ -152,6 +156,7 @@
    | Unity Plastic SCM | A version control and source code management tool built to improve team collaboration and scalability no matter what engine you use.                                                        |
    | react                 | React is a JavaScript library for building user interfaces.                          |
 
+<br>
 
 ## 📚 준비하기
 
@@ -240,11 +245,11 @@ Docker와 Jenkins를 이용해 CI/CD 구축하였습니다:
 
 ## 💬 Documents
 
-#### 1. [The Little Traveler - Notion](https://www.notion.so/3-cf3d14eca4aa4bb69097a1f27daf4486)
-#### 2. [와이어프레임](https://www.notion.so/41680a61b4374608b28231b70f6756ff)
-#### 3. [시나리오](https://www.notion.so/7dfe1132dc474c4abb397bad4a1e27d8)
-#### 4. [우선순위명세서](https://www.notion.so/396f9869558448e195999f715543ff44?v=4a10ec5086b742b7b8e4678eb9fce792)
-#### 5. [프로젝트 월별 계획표](https://www.notion.so/211ce320b59d4a77a849f407caf86bf8)
+#### 1. [The Little Traveler - Notion](https://www.notion.so/The-Little-Traveler-44489e1dcbf041e995a87ad363179fd3)
+#### 2. [와이어프레임](https://www.notion.so/50d8ccd57549483991f86b6a641b8793)
+#### 3. [시나리오](https://www.notion.so/abb388cddb22420ebf22e472c357ab6e)
+#### 4. [우선순위명세서](https://www.notion.so/e76f3a53a348416fb19535fab82bce7c?v=e2cd928531c24deaa40e2359bed56f11)
+#### 5. [프로젝트 월별 계획표](https://www.notion.so/11134f5df1f14296b695d1fa6afad61c)
 
 <br>
 
