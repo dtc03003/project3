@@ -18,7 +18,7 @@ export default function App() {
     let timer = setTimeout(() => {
       setLoadingStyle({ display: 'none' })
       setUnityStyle({ display: 'block' })
-    }, 50001);
+    }, 50000);
     return () => { clearTimeout(timer) }
   }, []);
 
@@ -35,8 +35,8 @@ function UnityComponent() {
     <div id="asdf">
       <Unity
         style={{
-          width: '85vw',
-          height: '97vh',
+          width: '80vw',
+          height: '45vw',
         }}
         unityContext={unityContext} />
     </div>
