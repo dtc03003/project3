@@ -19,7 +19,7 @@ export default function App() {
 
   useEffect(function () {
     unityContext.on("progress", function (progression) {
-      setProgression(Math.floor(progression * 100) / 100);
+      setProgression(Math.floor(progression * 10000) / 100);
       if (progression === 1) {
         setLoadingStyle({ display: 'none' })
         setUnityStyle({ display: 'block' })
