@@ -19,7 +19,7 @@ export default function App() {
 
   useEffect(function () {
     unityContext.on("progress", function (progression) {
-      setProgression(Math.floor(progression * 10000) / 100);
+      setProgression(Math.floor(progression * 100) / 100);
       if (progression === 1) {
         setLoadingStyle({ display: 'none' })
         setUnityStyle({ display: 'block' })
@@ -27,13 +27,21 @@ export default function App() {
     });
   }, [progression]);
 
+  function handleOnClickFullscreen() {
+    unityContext.setFullscreen(true);
+  }
+
   return (
     <div>
       <div style={LoadingStyle}>
         <LoadingComponent/>
-        <ProgressBar id="progressbar" animated now={progression} label={`${progression}%`}/>
+        <ProgressBar id="progressbar" striped variant="warning" animated now={progression} label={`${progression}%`}/>
+        {/* <ProgressBar id="progressbar" animated now={progression} label={`${progression}%`}/> */}
       </div>
-      <div style={UnityStyle}> <UnityComponent/></div>
+      <div style={UnityStyle}>
+        <UnityComponent />
+        <button onClick={handleOnClickFullscreen}>Fullscreen</button>
+      </div>
     </div>
   );
 };
