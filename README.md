@@ -103,7 +103,7 @@
 <ul>
 	<li>✔️어린왕자 동화 메인 스토리를 따라가는 퀘스트 제공</li>
 	<li>✔️다채로운 쉽고 재미있는 미니 게임 제공</li>
-	<li>✔️역량 향상 :  <code><font color="skyblue"><b>React</b></font></code>, <code><font color="skyblue"><b>Unity</b></font></code>, 	<code><font color="skyblue"><b>WebGL</b></font></code>, <code><font color="skyblue"><b>Unity Plastic SCM</b></font></code>, <code><font color="skyblueblue"><b>Docker</b></font></code>, <code><font color="skyblueblue"><b>Jenkins</b></font></code>, <code><font color="skyblueblue"><b>NGINX</b></font></code></li>, <code><font color="skyblueblue"><b>JIRA</b></font></code></li>, <code><font color="skyblueblue"><b>Gitlab</b></font></code></li>
+	<li>✔️역량 향상 :  <code><font color="skyblue"><b>C#</b></font></code>,<code><font color="skyblue"><b>React</b></font></code>, <code><font color="skyblue"><b>Unity</b></font></code>, 	<code><font color="skyblue"><b>WebGL</b></font></code>, <code><font color="skyblue"><b>Unity Plastic SCM</b></font></code>, <code><font color="skyblueblue"><b>Docker</b></font></code>, <code><font color="skyblueblue"><b>Jenkins</b></font></code>, <code><font color="skyblueblue"><b>NGINX</b></font></code></li>, <code><font color="skyblueblue"><b>JIRA</b></font></code></li>, <code><font color="skyblueblue"><b>Gitlab</b></font></code></li>
 
 <br/>
 
@@ -255,12 +255,36 @@ Docker와 Jenkins를 이용해 CI/CD 구축하였습니다:
 
 ## 👥 Contributer
 
-- [박유정](https://github.com/elenaisnanocat)
-- [정종혁](https://github.com/jjong60)
-- [박현진](https://github.com/jinnydiary)
-- [김동현](https://github.com/dtc03003)
-- [박기성](https://github.com/abc1242)
-- [최영빈](https://github.com/chldudqlsdl)
+#### [박유정](https://github.com/elenaisnanocat)
+* 담당 개발 : 맵 모델링, 사운드 시스템, 날씨 시스템, 낚시 애니메이션 기능, 효과음 기능 개발
+* 팀내 역할 : 팀장, 기획총괄
+* 개발 각오: 다들 처음 유니티 사용해서 프로젝트 하는데 잘 완성되어서 좋은 결과가 있었으면 좋겠습니다!!
+* 후기 : 좋은 팀원들을 만났고 덕분에 함께 했을때의 시너지 효과를 경험했습니다. 다들 처음해보는 유니티 게임 개발 엔진이지만 으쌰으쌰 서로 모르는 부분은 도와주고 하며 좋은 경험이었습니다. 네이버폼을 사용해 실제 사용자들도 받고 피드백도 받아보고 이를 토대로 사용자들의 편의를 개선시켜주는 등 개발 이후의 버그 수정 경험을 해 볼 수 있어서 좋았습니다.
+#### [정종혁](https://github.com/jjong60)
+* 담당 개발 : 캐릭터 모델링, 캐릭터 애니메이션(기본 움직임), 카메라 시점, 퀘스트 시스템, 대화 시스템, 메뉴창, 인벤토리, BGM, SE, 
+* 팀내 역할 : 운영총괄
+* 개발 각오 : 꼭 상을 타겠습니다!
+* 후기 : 유니티, C#을 처음 배워보면서 어려운 점도 많았고 상태관리가 git이랑 달라 당황했던 경험이 있었지만 게임 개발이라는 주제로 정말 재밌는 기획도 많이 생각했고 직접 만든다는 경험이 하루하루가 즐거웠습니다. 또한 이렇게 즐기며 프로젝트 한 결과가 좋은 결과 나와서 더 뿌듯합니다!
+#### [박현진](https://github.com/jinnydiary)
+* 담당 개발 : 말타기, 낚시 및 아이템 찾기&획득 기능, 조종사 퀘스트, 씬 연결 구현, 월드맵 제작, 서버 배포
+* 팀내 역할 : 헬퍼
+* 개발 각오 : 9-6 동안은 열심히 해보자!
+* 후기 : 처음 해보는 유니티와 C#을 6주 안에 익히고 구현까지 할 수 있을지 걱정이 많이 되었는데 완성도 높은 결과물이 나와서 너무 뿌듯해요! 개발자로서 한 발짝 더 다가갈 수 있어, 좋은 팀원들은 만날 수 있어 좋았습니다:) 프로젝트는 끝이 났지만 기회가 있다면 유지 보수를 하여 더 나은 게임을 계속해서 유지시키고 싶습니다!
+#### [김동현](https://github.com/dtc03003)
+* 담당개발 : 대화시스템 , 퀘스트 시스템 , WebGL 빌드, 프론트
+* 팀내역활 : 부팀장
+* 개발 각오 : 매일매일 새로 배우며 성장중! 같이 성장합시다!
+* 후기 : 모두가 처음 해보는 유니티&C#으로 해본 프로젝트! 좋은 결과도 기대되서 좋은 경험이었습니다.
+#### [박기성](https://github.com/abc1242)
+* 담당개발 : B612 맵 모델링, B612 기능, 인내의 별
+* 팀내역할 : 우주인
+* 개발 각오 : 맡은 역할에 최선을 다하겠습니다.
+* 후기 : 처음 해보는 유니티 프로젝트이지만 분위기가 좋아 개발하는 매일매일이 행복했습니다. 팀원 모두 열심히 한만큼 좋은 결과가 있어 뿌듯합니다.
+#### [최영빈](https://github.com/chldudqlsdl)
+* 담당개발 :  초원 모델링, 시네마틱 영상
+* 팀내역할 : 스토리 작가
+* 개발각오 : 게임 사용자의 입장에서 재미있는 게임을 만들고 싶습니다.
+* 후기 : 평생 살면서 익숙하게 봐왔던, 캐릭터의 움직임이나 NPC와의 대화의 구현등이 개발자들의 섬세한 노력에 의해서 어렵게 이루어진다는 것을 깨달았습니다. 게임 구현의 완성도 측면에 있어서는 팀원 모두의 노력으로 높은 수준을 달성한 듯 합니다. 다만 실제 사용자들의 피드백에 의하면 개인의 플레이 환경에 따라 마우스 민감도, 운영체제가 달라 모두가 똑같은 사용 경험을 얻을 수 없다는 점이 아쉬워 이 부분을 개선 할 수 있었으면 좋겠습니다. 가끔 미세한 버그도 발생하는 듯 한데 게임 개발의 숙명인 듯 합니다. 시간을 두고 테스트를 하면서 빈틈없는 게임이 되면 좋겠습니다. 
 
 <br>
 
