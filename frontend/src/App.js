@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useEffect, useState } from "react";
 import Unity, { UnityContext } from "react-unity-webgl";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ProgressBar } from "react-bootstrap";
 import Loading from './Loading.gif';
 
 const unityContext = new UnityContext({
@@ -11,20 +13,26 @@ const unityContext = new UnityContext({
 })
 
 export default function App() {
+  const [progression, setProgression] = useState(0);
   const [LoadingStyle, setLoadingStyle] = useState({ display: 'block' });
-  const [UnityStyle, setUnityStyle] = useState({ display: 'none' })
+  const [UnityStyle, setUnityStyle] = useState({ display: 'none' });
 
-  useEffect(() => {
-    let timer = setTimeout(() => {
-      setLoadingStyle({ display: 'none' })
-      setUnityStyle({ display: 'block' })
-    }, 50000);
-    return () => { clearTimeout(timer) }
-  }, []);
+  useEffect(function () {
+    unityContext.on("progress", function (progression) {
+      setProgression(Math.floor(progression * 10000) / 100);
+      if (progression === 1) {
+        setLoadingStyle({ display: 'none' })
+        setUnityStyle({ display: 'block' })
+      }
+    });
+  }, [progression]);
 
   return (
     <div>
-      <div style={LoadingStyle}><LoadingComponent/></div>
+      <div style={LoadingStyle}>
+        <LoadingComponent/>
+        <ProgressBar id="progressbar" animated now={progression} label={`${progression}%`}/>
+      </div>
       <div style={UnityStyle}> <UnityComponent/></div>
     </div>
   );

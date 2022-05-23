@@ -41,5 +41,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 95vh;
+  min-height: 85vh;
+}
+
+#progressbar {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 50vw;
+  margin: auto;
 }
