@@ -291,7 +291,7 @@ Docker와 Jenkins를 이용해 CI/CD 구축하였습니다:
 ## 🚀 References
 
 
-- [TOAST UI Editor - B612 배경 사운드](https://github.com/nhn/tui.editor#readme)
+- [Duggy - B612 배경 사운드](https://www.youtube.com/watch?v=syn-DeJ7sBk)
 
 <br>
 
