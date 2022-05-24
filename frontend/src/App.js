@@ -4,6 +4,7 @@ import Unity, { UnityContext } from "react-unity-webgl";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ProgressBar } from "react-bootstrap";
 import Loading from './Loading.gif';
+import FullScreen from './icon.png';
 
 const unityContext = new UnityContext({
   loaderUrl: "Build/WebGL.loader.js",
@@ -27,9 +28,6 @@ export default function App() {
     });
   }, [progression]);
 
-  function handleOnClickFullscreen() {
-    unityContext.setFullscreen(true);
-  }
 
   return (
     <div>
@@ -40,23 +38,39 @@ export default function App() {
       </div>
       <div style={UnityStyle}>
         <UnityComponent />
-        <button onClick={handleOnClickFullscreen}>Fullscreen</button>
       </div>
     </div>
   );
 };
 
 function UnityComponent() {
+  function handleOnClickFullscreen() {
+    unityContext.setFullscreen(true);
+  }
+
   return (
     <div id="asdf">
-      <Unity
-        style={{
-          width: '80vw',
-          height: '45vw',
-          maxWidth: '142.2vh',
-          maxHeight: '80vh'
-        }}
-        unityContext={unityContext} />
+      <div id="unity">
+        <Unity
+          style={{
+            width: '80vw',
+            height: '45vw',
+            maxWidth: '142.2vh',
+            maxHeight: '80vh'
+          }}
+          unityContext={unityContext} />
+
+        <div id="fullscreen">
+          <img id="fscr" src={FullScreen} onClick={handleOnClickFullscreen} style={{
+            width: '30px',
+            height: '30px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}></img>
+        </div>
+        
+      </div>
     </div>
   );
 };

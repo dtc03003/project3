@@ -50,4 +50,14 @@
   align-items: center;
   width: 50vw;
   margin: auto;
+  text-align: center;
+}
+
+#unity {
+  display: inline-block;
+  align-items: center;
+}
+
+#fscr{
+  float: right;
 }
