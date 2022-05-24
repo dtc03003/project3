@@ -28,13 +28,21 @@ export default function App() {
     });
   }, [progression]);
 
+  function LoadingComponent() {
+    return (
+      <div id="asdf">
+        <div>
+          <img src={Loading}></img>
+          <ProgressBar id="progressbar" striped variant="warning" animated now={progression} label={`${progression}%`} />
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div>
       <div style={LoadingStyle}>
         <LoadingComponent/>
-        <ProgressBar id="progressbar" striped variant="warning" animated now={progression} label={`${progression}%`}/>
-        {/* <ProgressBar id="progressbar" animated now={progression} label={`${progression}%`}/> */}
       </div>
       <div style={UnityStyle}>
         <UnityComponent />
@@ -75,10 +83,3 @@ function UnityComponent() {
   );
 };
 
-function LoadingComponent() {
-  return (
-    <div id="asdf">
-      <img src={Loading}></img>
-    </div>
-  );
-};
